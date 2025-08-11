@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "pradan_test_version_2",
+    "name": "Pradan",
     "slug": "pradan_test_version_2",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -13,10 +13,11 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./assets/images/icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.kavi2005.pradan_test_version_2"
     },
     "web": {
       "bundler": "metro",
@@ -37,6 +38,13 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "API_URL": "http://65.1.148.21:5000",
+      "router": {"origin": false},
+      "eas": {
+        "projectId": "5c93807d-cd91-4e27-adf8-0559c2357c32"
+      }
     }
   }
 }
