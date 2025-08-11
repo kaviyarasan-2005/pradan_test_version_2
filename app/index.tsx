@@ -48,6 +48,7 @@ const handleLogin = async () => {
       } else if(role == "verifier"){
         router.replace("/Verifier/verifierdashboard");
       }
+  
     } catch (error) {
       Alert.alert("Error", "Failed to save login state.");
     }
